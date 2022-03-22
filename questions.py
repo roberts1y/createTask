@@ -1,7 +1,10 @@
-#trivia questions and answers
-questions = {
+quiz = {
     1 : {
-        "question" : "Who is Barack Obama's wife?",
+        "question" : "Who is the spouse of Barack Obama?",
         "answer" : "Michelle Obama"
+    },
+    2 : {
+        "question" : "Who is Micheal Webb",
+        "answer" : "bozo"
     }
 }
