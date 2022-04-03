@@ -28,5 +28,7 @@ while True:
                 score += 1
                 break
             attempts -= 1
+    break
+
 
 
