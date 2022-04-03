@@ -17,7 +17,7 @@ while True:
         attempts = 3
         while attempts > 0:
             print(quiz[question]['question'])
-            answer = input("Enter your answer, to skip the question type 'skip' :")
+            answer = input("Enter your answer, to skip the question type 'skip': ")
             if answer.lower == "skip":
                 break
             check = checkAnswer(question, answer, score, attempts)
