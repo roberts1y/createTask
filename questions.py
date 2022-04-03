@@ -1,8 +1,7 @@
 quiz = {
     1 : {
-        "question" : "Who is the spouse of Barack Obama?",
-        "answer" : "Michelle Obama",
-        "answer" : "Michelle"
+        "question" : "What is the first name of the spouse of Barack Obama?",
+        "answer" : "Michelle",
     },
     2 : {
         "question" : "How many teeth are in the adult mouth?",
