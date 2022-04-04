@@ -4,7 +4,8 @@ from questions import quiz
 score = 0
 
 print('')
-print("Welcome to my game! Answer the trivia question with the correct answer to earn a point. Try repeating the game as many times you want to score the maximum amount of points. Good luck!")
+print("""Welcome to my game! Answer the trivia question with the correct answer to earn a point. 
+Try repeating the game as many times you want to score the maximum amount of points. Good luck!""")
 print('')
 
 #Check answers to see if they are correct or not
@@ -24,17 +25,21 @@ while True:
         while attempts > 0:
             print(quiz[question]['question'])
             answer = input("Enter the answer, if you don't know the answer or would like to move on to the next question, type 'skip' : ")
-            attempts = attempts - 1
+            attempts -= 1
             if answer == "skip":
                 print('')
                 break
             check = checkAnswer(question, answer, score, attempts)
             if check:
-                score = score + 1
+                score += 1
                 break
     break
 
 print("Your final score is", score)
+if score < 2:
+    print("Not bad, but maybe you could do a little better next time...")
+if score > 2:
+    print("Wow! You're a pro. Great job!")
 print("Thanks for playing!")
             
 
