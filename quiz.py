@@ -34,13 +34,14 @@ while True:
                 print(quiz[question]['question'])
                 answer = input("Enter the answer, if you don't know the answer or would like to move on to the next question, type 'skip' : ")
                 attempts -= 1
+                check = checkAnswer(question, answer, score, attempts)
                 if answer == "skip":
+                    print("Nice try! The correct answer was", quiz[question]['answer'])
                     print('')
                     break
-                check = checkAnswer(question, answer, score, attempts)
                 if check:
-                  score += 1
-                  break
+                    score += 1
+                    break
         break
 
 
