@@ -13,7 +13,7 @@ print('')
 #Check answers to see if they are correct or not
 def checkAnswer(question, answer, score, attempts):
     if quiz[question]['answer'].lower() == answer.lower():
-        print("Correct answer! Your score is ",(score + 1))
+        print("Correct answer! Your score is",(score + 1))
         print('')
         return True
     if attempts == 0:
@@ -53,7 +53,7 @@ if score < 6:
 if 10 > score >= 6:
     print("Wow, you scored",score,"points! You're a pro. Great job!")
 if score == 10: 
-    print("Jeez, you must be cheating! You scored",score,"points.")
+    print("Jeez, you must be cheating! You scored",score,"points. That's every question right!")
 print("Thanks for playing!")
             
 
