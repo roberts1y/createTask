@@ -4,8 +4,8 @@ from questions import quiz
 score = 0
 
 print('')
-print("""Welcome to my game! Answer the trivia question with the correct answer to earn a point. 
-Try repeating the game as many times you want to score the maximum amount of points. Good luck!""")
+print("""Welcome to my game! Answer the trivia question with the correct answer to earn a point for a maximum of 10 
+points. Try repeating the game as many times you want to score the maximum amount of points. Good luck!""")
 print('')
 
 
@@ -27,7 +27,7 @@ def checkAnswer(question, answer, score, attempts):
 
 
 while True:
-    start = input("When you're ready to start, type anything and press enter : ")
+    start = input("Remember, when taking the quiz capitalization does NOT matter. When you're ready to start, type anything and press enter : ")
     print("")
     if start:
         for question in quiz:
