@@ -13,7 +13,7 @@ quiz = {
         "answer" : "14"
     },
     4 : {
-        "question" : "Which country consumes the most chocolate per capita?",
+        "question" : "Which European country consumes the most chocolate per capita?",
         "answer" : "Switzerland"
      },
     5 : {
@@ -29,11 +29,11 @@ quiz = {
         "answer" : "Tea"
     },
     8 : {
-        "question" : "Which country invented ice cream?",
+        "question" : "Which Asian country invented ice cream?",
         "answer" : "China"
     },
     9 : {
-        "question" : "Havana is the capital of which country?",
+        "question" : "Havana is the capital of which North American country?",
         "answer" : "Cuba"
     },
     10 : {
