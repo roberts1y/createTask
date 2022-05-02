@@ -55,5 +55,3 @@ if 10 > score >= 6:
 if score == 10: 
     print("Jeez, you must be cheating! You scored",score,"points. That's every question right!")
 print("Thanks for playing!")
-            
-
