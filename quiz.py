@@ -51,7 +51,7 @@ print("Your final score is", score)
 if score < 6:
     print("Not bad, but you only scored",score,"maybe you could do a little better next time...")
 if 10 > score >= 6:
-    print("Wow, you scored",score,"points! You're a pro. Great job!")
+    print("Wow, you scored",score,"points! Great job!")
 if score == 10: 
     print("Jeez, you must be cheating! You scored",score,"points. That's every question right!")
 print("Thanks for playing!")

@@ -1,4 +1,4 @@
-#source: https://www.triviaquestionss.com/fun-trivia-questions/
+#source: https://www.triviaquestionss.com/fun-trivia-questions/ & https://www.quizbreaker.com/trivia-questions
 quiz = {
     1 : {
         "question" : "What is the first name of the spouse of Barack Obama?",
