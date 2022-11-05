@@ -28,7 +28,7 @@ def checkAnswer(question, answer, score, attempts):
         print('')
         return False 
 
-#while statment continues to run until all questions have been answered
+#while statement continues to run until all questions have been answered
 while True:
     #input which allows user to read instructions before typing anything and making the start 'if' statement true
     start = input("Remember, when taking the quiz capitalization does NOT matter. When you're ready to start, type anything and press enter : ")
@@ -58,7 +58,7 @@ while True:
 
 #prints the final score
 print("Your final score is", score)
-#some simple 'if' statments for funny finishing phrases
+#some simple 'if' statements for funny finishing phrases
 if score < 6:
     print("Not bad, but you only scored",score,"maybe you could do a little better next time...")
 if 10 > score >= 6:
